@@ -1,7 +1,5 @@
+"use strict";
 function initialize() {
-    
-    "use strict";
-    
     var latlng = new google.maps.LatLng(35.092670, -85.177199),
     
         latlng2 = new google.maps.LatLng(35.044162, -85.308351),
