@@ -1,4 +1,4 @@
-function initMap() {
+function initialize() {
     
     "use strict";
     
