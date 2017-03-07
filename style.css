@@ -112,10 +112,10 @@ header:after {
 }
 
 #col2 {
-    width: 50%;
+    width: 60%;
     background: url(images/20170217_103339.jpg);
     background-repeat: no-repeat;
-    background-position: top;
+    background-position: top left;
     background-size: cover;
 
 }
