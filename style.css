@@ -597,9 +597,108 @@ footer a:hover {
     transition: 0s
 }
 
-
 /* media queries */
 
-/* small */
+/* tablet */
+
+@media screen and (max-width: 900px) {
+
+    #banner {
+        max-height: 300px;
+    }
+
+    header h1.logo{
+        background-size: contain;
+        margin: 2% 5% 0 0;
+    }
+
+    #col {
+        width: 50%;
+    }
+
+
+    #col h2{
+        width: 70%;
+        margin: 5% auto;
+        font-size: 35px;
+    }
+
+    #col h3{
+        width: 70%;
+        margin: 5% auto;
+        font-size: 18px;
+    }
+
+    #col ul{
+        font-size: 14px;
+        margin-left: 20%;
+    }
+
+   
+
+    #empty{
+        width: 1%;
+    }
+
+    #col3{
+        width: 100%;
+        margin: auto;
+    }
+
+    #icons{
+        width: 50%;
+        margin: 0 0 0 25%;
+    }
+
+
+}
+
+/* phone */
+
+@media screen and (max-width: 600px){
+
+    #callnow span{
+        font-size: 16px;
+        margin: 0 0 0 5%;
+    }
+
+    header h1.logo{
+        background-size: contain;
+        margin: 5% 10% 0 0;
+    }
+
+    .col, .colimg{
+        height: 0px;
+        visibility: collapse;
+    }
+
+    #col h2{
+        width: 70%;
+        margin: 5% auto;
+        font-size: 20px;
+    }
+
+    #col h3{
+        width: 70%;
+        margin: 5% auto;
+        font-size: 16px;
+    }
+
+    #col ul{
+        font-size: 14px;
+        margin-left: 10%;
+    }
+
+    #main{
+        height: 0px;
+        visibility: collapse;
+    }
+
+    #icons{
+        width: 70%;
+        margin: 0 0 0 15%;
+    }
+
+    
 
 }
